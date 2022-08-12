@@ -7,7 +7,7 @@ tic-tac-toe is a tiny, simple, interactive command-line based project. \
 
 The game can be played in single-player mode and double-player mode.
 
-The double-player mode is simple - two players get their turns one by one, and the first one to complete a DIAGONAL, ROW, or COLUMN to be all Naughts/Crosses wins. In the single-player mode, however, the computer plays tic-tac-toe with you, in three increasing levels of difficulty (and intelligence):
+The double-player mode is simple - two players get their turns one by one, and the first one to complete a Row, Column, or Diagonal to be all Naughts/Crosses wins. In the single-player mode, however, the computer plays tic-tac-toe with you, in three increasing levels of difficulty (and intelligence):
 - The simple level, where it decides its moves randomly
 - The medium level, where it is able to defend itself from your offensive moves
 - The difficult level, where it plays <b>both</b> offensively and defensively
@@ -19,7 +19,7 @@ This is where (and how) the magic happens. These simple functions enable the com
 ```
 function level_2():
     for each possible i:
-        if (two boxes of row[i] OR column[i] OR diagonal[i] == naught):
+        if (two boxes of ROW[i] OR COLUMN[i] OR DIAGONAL[i] == naught):
             turn = empty_box
             
     if (is_available(turn)):
@@ -29,7 +29,7 @@ function level_2():
 function level_3():
     level_2()
     for each possible i:
-        if (two boxes of row[i] OR column[i] OR diagonal[i] == cross):
+        if (two boxes of ROW[i] OR COLUMN[i] OR DIAGONAL[i] == cross):
              turn = empty_box
     
     if (is_available(turn)):
