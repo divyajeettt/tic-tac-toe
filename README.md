@@ -38,9 +38,9 @@ function level_3():
 
 ## Footnotes
 
-- In single-player mode, the Player, and in double-player mode, Player-1, <b>always</b>:
-    - Gets the first turn
-    - Plays as 'Naughts'
+In single-player mode, the Player, and in double-player mode, Player-1, <b>always</b>:
+- Gets the first turn
+- Plays as 'Naughts'
 
 ## Run
 
