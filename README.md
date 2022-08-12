@@ -37,12 +37,15 @@ function level_3():
 ```
 
 ## Footnotes
+
 - In single-player mode, the Player, and in double-player mode, Player-1, <b>always</b>:
     - Gets the first turn
     - Plays as 'Naughts'
 
 ## Run
+
 To play, clone the repository on your device, navigate to the folder, and execute:
+
 ```
 python3 main.py
 ```
