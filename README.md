@@ -2,8 +2,11 @@
 
 ## About tic-tac-toe
 
-tic-tac-toe is a tiny, simple, interactive command-line based project. \
+tic-tac-toe is a tiny, simple, interactive command-line based project.
+
 *Date of creaton:* `September 10, 2019`
+
+## Game modes
 
 The game can be played in single-player mode and double-player mode.
 
