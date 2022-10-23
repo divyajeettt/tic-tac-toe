@@ -13,7 +13,7 @@ The game can be played in single-player mode and double-player mode.
 The double-player mode is simple - two players get their turns one by one, and the first one to complete a Row, Column, or Diagonal to be all Naughts/Crosses wins. In the single-player mode, however, the computer plays tic-tac-toe with you, in three increasing levels of difficulty (and intelligence):
 - The simple level, where it decides its moves randomly
 - The medium level, where it is able to defend itself from your offensive moves
-- The difficult level, where it plays <b>both</b> offensively and defensively
+- The difficult level, where it plays **both** offensively and defensively
 
 ## Where the 'intelligence' lies
 
@@ -41,7 +41,7 @@ function level_3():
 
 ## Footnotes
 
-In single-player mode, the Player, and in double-player mode, Player-1, <b>always</b>:
+In single-player mode, the Player, and in double-player mode, Player-1, **always**:
 - Gets the first turn
 - Plays as 'Naughts'
 
